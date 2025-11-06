@@ -1,3 +1,10 @@
+/*
+Name: Duncan Mugambi Gitonga
+Reg No:CT101/G/26547/25
+Description:cat2 question 1 instructions 
+*/
+
+
 #include <stdio.h>
 
 int main() {
