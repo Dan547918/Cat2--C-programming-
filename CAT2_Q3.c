@@ -1,3 +1,9 @@
+/*
+Name: Duncan Mugambi Gitonga
+Reg No:CT101/G/26547/25
+Descriprion: cat2 q3 code
+*/
+
 #include <stdio.h>
 
 #include <stdlib.h>
