@@ -1,3 +1,10 @@
+/*
+Name: Duncan Mugambi Gitonga
+Reg No:CT101/G/26547/25
+Descriprion: cat 2 q2 instructions code
+*/
+
+
 #include <stdio.h>
 
 int main() {
