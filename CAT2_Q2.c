@@ -9,23 +9,16 @@ float hours_worked, hourly_wage, gross_pay, taxes, net_pay;
     printf("Enter hours worked in a week: ");
 
     scanf("%f", &hours_worked);
-
-    
-
     printf("Enter the hourly wage: ");
 
     scanf("%f", &hourly_wage);
-
-    
-
+  
     // Calculate Gross Pay
 
     float regular_hours = 40.0;
 
     float overtime_rate = 1.5;
-
-    
-
+  
     if (hours_worked > regular_hours) {
 
         float regular_pay = regular_hours * hourly_wage;
@@ -40,9 +33,7 @@ float hours_worked, hourly_wage, gross_pay, taxes, net_pay;
 
         gross_pay = hours_worked * hourly_wage;
 
-    }
-
-    
+    }    
 
     // Calculate Taxes
 
@@ -50,9 +41,7 @@ float hours_worked, hourly_wage, gross_pay, taxes, net_pay;
 
     float tax_rate_rest = 0.20;
 
-    float tax_threshold = 600.0;
-
-    
+    float tax_threshold = 600.0;    
 
     if (gross_pay <= tax_threshold) {
 
@@ -62,10 +51,7 @@ float hours_worked, hourly_wage, gross_pay, taxes, net_pay;
 
         taxes = (tax_threshold * tax_rate_first_600) + ((gross_pay - tax_threshold) * tax_rate_rest);
 
-    }
-
-    
-
+    }
     // Calculate Net Pay
 
     net_pay = gross_pay - taxes;
